@@ -1,0 +1,22 @@
+
+{% load staticfiles %}
+
+
+<html>
+
+    <head>
+        <link rel="stylesheet" href="{% static 'polls/style.css' %}" />
+        <link rel='stylesheet' href={% static 'polls/style.css' %}>
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet"> 
+    </head>
+
+    <div class="home">
+        <a href={% url 'polls:index' %}>home</a>
+
+    </div>
+
+    {% block content %}
+
+    {% endblock %}
+
+</html>

@@ -1,0 +1,13 @@
+.display {
+    height: 200px;
+    width: 140px;
+    background-color: powderblue;
+}
+
+.actor {
+    height: 50px;
+    width: 50px;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+}

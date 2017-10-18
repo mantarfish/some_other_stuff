@@ -1,0 +1,25 @@
+{% extends 'polls/base.html' %}
+
+{% block content %}
+    {% for question in questions %}
+        <div class="card">
+            <p>question: {{ question.question_text }}</p>
+            <p>
+                {% if not question.was_published_recently %}
+                    <p>unpublished</p> 
+                {% endif %}
+            </p>
+            <P>
+                <a href={% url 'polls:detail' pk=question.pk %}>detail</a>
+                <a href={% url 'polls:results' pk=question.pk %}>results</a>
+                <a href={% url 'polls:createchoice' question_id=question.pk %}>create</a>
+
+                <p>{{question.pk}}</p>
+            </P>        
+        </div>
+
+    {% endfor %}
+
+
+
+{% endblock %}

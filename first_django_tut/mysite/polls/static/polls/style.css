@@ -1,0 +1,99 @@
+a {
+    margin: 10px;
+    color: #555555;
+    padding: 5px;
+    box-shadow: 2px 4px 4px;
+    border: 2px;
+    border-color: #333333;
+    float: right;
+    
+}
+
+.card {
+    margin: 20px;
+    border: 2 px #DDDDDD;
+    border-color: #000000
+    background-color: #EEEEEE;
+    width: 40%;
+    width-max: 30px;
+    position: relative;
+    display: inine-block;
+    hight: auto;
+    padding: 12px;
+    box-shadow: 2px 3px 5px 3px #999999;
+    border-radius: 5px;
+    resize: both;
+    overflow: auto;
+}
+
+body {
+
+
+
+    background-color: #e0e0e0;
+}
+
+
+.card-home {
+    
+    margin: 24px;
+    max-width: 300px;
+    box-shadow: 5px 7px 11px 6px #999999;
+    font-family: 'Roboto', sans-serif;
+    background-color: #efefef;
+    
+    
+    float: left; width: 100%
+    
+}
+
+.content {
+    padding: 24px;
+    float: left;
+    
+    
+
+    
+}
+
+.reg-text {
+    
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    color: #777777;
+    line-height: 140%;
+   
+
+
+}
+
+.heading {
+    margin-top: 0px;
+    margin-bottom: 24px;
+    padding: 0px;
+    font-size: 22px;
+    
+    float: left;
+    
+}
+
+.card-btm {
+    margin: 0px;
+    padding: 0px;
+    
+    
+}
+
+.btn-card {
+    margin: 8px 8px 8px 0px;
+    padding: 8px;
+    
+    display:inline-block;
+    float: right;
+
+    color: #6161BB;
+    text-transform: uppercase;
+
+
+}

@@ -1,0 +1,12 @@
+
+{% extends 'polls/base.html' %}
+{% block content %}
+
+    <form action="{% url 'polls:createchoice' question_id %}" method='post'>
+        {% csrf_token %}
+        <input type="text" name="choice_text" /><br />
+        <input type="submit"/ >
+    </form>
+
+
+{% endblock %}
