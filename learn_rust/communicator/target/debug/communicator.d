@@ -1,0 +1,1 @@
+/home/nol/atom_pjs/learn_rust/communicator/target/debug/communicator: /home/nol/atom_pjs/learn_rust/communicator/src/client.rs /home/nol/atom_pjs/learn_rust/communicator/src/lib.rs /home/nol/atom_pjs/learn_rust/communicator/src/network/server.rs /home/nol/atom_pjs/learn_rust/communicator/src/main.rs /home/nol/atom_pjs/learn_rust/communicator/src/network/mod.rs

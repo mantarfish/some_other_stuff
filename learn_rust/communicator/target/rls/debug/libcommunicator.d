@@ -1,0 +1,1 @@
+/home/nol/atom_pjs/learn_rust/communicator/target/rls/debug/libcommunicator.rmeta: /home/nol/atom_pjs/learn_rust/communicator/src/lib.rs /home/nol/atom_pjs/learn_rust/communicator/src/client.rs /home/nol/atom_pjs/learn_rust/communicator/src/network/mod.rs /home/nol/atom_pjs/learn_rust/communicator/src/network/server.rs
